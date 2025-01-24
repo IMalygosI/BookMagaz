@@ -30,6 +30,9 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [C:/Users/prdb/Desktop/Avelonia projects (EK)/BooksMagazin/BooksMagazin/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/prdb/Desktop/Avelonia projects (EK)/BooksMagazin/BooksMagazin/Error.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/prdb/Desktop/Avelonia projects (EK)/BooksMagazin/BooksMagazin/Glav_Okko.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

@@ -150,6 +150,8 @@ public partial class DimaBaseContext : DbContext
                 .HasColumnName("ID");
             entity.Property(e => e.FioNamOt).HasColumnType("character varying");
             entity.Property(e => e.GenderId).HasColumnName("Gender_ID");
+            entity.Property(e => e.Login).HasColumnType("character varying");
+            entity.Property(e => e.Password).HasColumnType("character varying");
             entity.Property(e => e.RoleId).HasColumnName("Role_ID");
 
             entity.HasOne(d => d.Gender).WithMany(p => p.Users)

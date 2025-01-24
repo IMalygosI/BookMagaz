@@ -10,10 +10,76 @@
 			BorderBrush="Aqua">
 		<Grid RowDefinitions="*,*,*"
 			  ColumnDefinitions="*,*,*"
-			  ShowGridLines="True">
-			
-			
-			
+			  ShowGridLines="False"
+			  Background="Wheat">
+
+			<Border BorderThickness="3"
+					BorderBrush="Aqua"
+					Grid.Column="1"
+					Grid.Row="1"
+					Height="350"
+					Width="350"
+					CornerRadius="20"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center">
+				
+				<StackPanel Grid.Column="1"
+							Grid.Row="1"
+							HorizontalAlignment="Center"
+							VerticalAlignment="Center">
+
+					<TextBox CornerRadius="10"
+							 Margin="0 0 0 5"
+							 Name="login"
+							 Text=""
+							 Watermark="Логин:"
+							 BorderThickness="2"
+							 BorderBrush="Black"/>
+					
+					<TextBox CornerRadius="10"
+							 Margin="0 0 0 5"
+							 Name="password"
+							 Text=""
+							 Watermark="Пароль:"
+							 BorderThickness="2"
+							 BorderBrush="Black"/>
+
+					<Button Height="33"
+							Width="250"
+							Name="Enterpr"
+							Click="Button_Click_Enterpr"
+							CornerRadius="10"
+							Background="Green"
+							BorderThickness="2"
+							BorderBrush="Black"
+							HorizontalAlignment="Center"
+							VerticalAlignment="Center">
+						<TextBlock Text="Войти"
+								   Foreground="White"
+								   HorizontalAlignment="Center"
+								   VerticalAlignment="Center"/>
+					</Button>
+
+					<Button Height="33"
+							Width="250"
+							Margin="0 3 0 0"
+							Name="Guest"
+							Click="Button_Click_Guest"
+							CornerRadius="10"
+							Background="Gray"
+							BorderThickness="2"
+							BorderBrush="Black"
+							HorizontalAlignment="Center"
+							VerticalAlignment="Center">
+						<TextBlock Text="Войти гостем"
+								   Foreground="White"
+								   HorizontalAlignment="Center"
+								   VerticalAlignment="Center"/>
+					</Button>
+
+				</StackPanel>
+
+			</Border>
 		</Grid>
 	</Border>
 </Window>

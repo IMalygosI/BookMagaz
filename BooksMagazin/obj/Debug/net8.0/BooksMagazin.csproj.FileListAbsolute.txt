@@ -166,3 +166,4 @@ C:\Users\prdb\Desktop\Avelonia projects (EK)\BooksMagazin\BooksMagazin\bin\Debug
 C:\Users\prdb\Desktop\Avelonia projects (EK)\BooksMagazin\BooksMagazin\obj\Debug\net8.0\Avalonia\BooksMagazin.dll
 C:\Users\prdb\Desktop\Avelonia projects (EK)\BooksMagazin\BooksMagazin\obj\Debug\net8.0\Avalonia\BooksMagazin.pdb
 C:\Users\prdb\Desktop\Avelonia projects (EK)\BooksMagazin\BooksMagazin\obj\Debug\net8.0\refint\Avalonia\BooksMagazin.dll
+C:\Users\prdb\Desktop\Avelonia projects (EK)\BooksMagazin\BooksMagazin\obj\Debug\net8.0\BooksMagazin.sourcelink.json
